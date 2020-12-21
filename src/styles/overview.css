@@ -1,0 +1,96 @@
+.overview {
+  padding: 10px 30px;
+  width: 100%;
+}
+
+.learnmore {
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 14px; */
+  line-height: 70px;
+  /* identical to box height */
+  color: var(--harmoniGrey3);
+}
+
+.overview .sep {
+  background: #1f3ead;
+  height: 2px;
+  border: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.overview .title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  /* margin: 0 30px; */
+}
+
+.overview .title h2 {
+  padding: 0;
+}
+
+.sideways.infobar {
+  justify-content: flex-start;
+}
+.sideways.infobar img {
+  /* margin-left: 30px; */
+  margin-right: 15px;
+}
+.sideways.infobar h2 {
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 14px; */
+  line-height: 16px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.infobar{
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.sideways.infobar:hover {
+  box-shadow: 0px 1px 3px var(--harmoniGrey3);
+  cursor: pointer;
+}
+.sideways.infobar:active {
+  transform: translateY(1px);
+}
+.sideways .put-end{
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.sideways h2 {
+  padding-top: 0px;
+}
+
+.createcamp {
+  background: linear-gradient(180deg, #67ed9f 4%, #29cb97 100.1%);
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+.createcamp:hover {
+  box-shadow: 0px 1px 3px var(--harmoniGrey3);
+  cursor: pointer;
+}
+.createcamp:active {
+  transform: translateY(1px);
+}
+.bigtext {
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 24px; */
+  /* line-height: 28px; */
+  margin:0;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  padding: 25px 20px;
+}

@@ -1,0 +1,86 @@
+:root {
+  --harmoniGreen: #29cb97;
+  --harmoniLightGreen: #8fffbe;
+  --harmoniDarkGreen: #29cb97;
+  --harmoniBlue: #4072ee;
+  --harmoniPurple: #b558f6;
+  --harmoniYellow: #fec400;
+  --harmoniRed: #eb5757;
+  --harmoniGrey1: #333333;
+  --harmoniGrey2: #31394d;
+  --harmoniGrey3: #748aa1;
+  --harmoniGrey4: #b8c5d3;
+  --harmoniGrey5: #e5e9f2;
+  --harmoniOffwhite: #f5f6fa;
+}
+
+:root {
+  --main-color: var(--harmoniGreen);
+  --text-color: var(--harmoniGrey2);
+  --text-color-light: var(--harmoniGrey3);
+  --border-color: #eee;
+  --bg-color: #f9f9f9;
+  --neutral-color: #fff;
+}
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  overflow: hidden;
+  margin: 0px;
+}
+
+app::-webkit-scrollbar {
+  display: none;
+}
+
+
+h1 {
+  font-weight: 550;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+}
+
+p {
+  font-weight: 300;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 16px;
+  /* identical to box height */
+  color: var(--text-color-light);
+  margin: 0;
+}
+
+h2 {
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  /* color: #31394d; */
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* color: #748aa1; */
+}
+
+span {
+  font-weight: 300;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 16px;
+  color: var(--text-color-light);
+  /* identical to box height */
+}

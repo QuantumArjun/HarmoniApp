@@ -1,0 +1,243 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(49, 57, 77, 0.4); /* Black w/ opacity */
+  
+  
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); */
+  }
+  
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 65vw;
+  /* height: 80vh; */
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 30px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.modal-main .heart-div {
+  display: flex;
+  -ms-flex-align: end;
+  position: fixed;
+  right: 0;
+  margin-right: 30px;
+  margin-top: -5px;
+}
+
+.modal-main .heart-icon {
+  position: absolute;
+  right: 0;
+  fill: var(--harmoniGrey4)
+}
+
+svg {
+  fill: var(--harmoniGrey4) 
+}
+
+.modal-main .left {
+  width: 60%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-right: 2px solid var(--harmoniGrey3);  
+}
+
+.modal-main .title {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.modal-main h3 {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.modal-main h1 {
+    margin: 0;
+}
+
+.modal-main .when {
+    margin: 0;
+}
+
+.modal-main .top-item{
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.modal-main .image-and-text {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+
+.modal-main .right {
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px 15px 0px 45px;
+  }
+
+
+.modal-main .image {
+  width: 100px;
+  height: 100px;
+}
+
+.modal-main img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+.modal-main .infobar img {
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+  }
+
+  .modal-main .right .search {
+    align-self: stretch;
+  }
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.modal-main .right .cost-title h2, .modal-main .right .cost-itself h2 {
+  margin-bottom: 8px;
+}
+
+.total-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top:10px;
+
+    border-bottom: 2px solid var(--harmoniGrey4);
+
+  }
+
+  .tax-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+    border-bottom: 1px solid var(--harmoniGrey4);
+
+  }
+
+  .right h4 {
+    margin: 8px auto;
+  }
+
+  .peruser-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    border-bottom: 1px solid var(--harmoniGrey4);
+
+  }
+
+  .peruser-cost h4{
+    padding: 0;
+    margin: 5px;
+    margin-left: 10px;
+
+  }
+
+  .unit-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+
+  }
+  .unit-cost h4{
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .conv-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.button {
+    display: inline-block;
+    background: #578bf3;
+    width: 50%;
+    align-self: center;
+    align-content: center;
+  
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 14px; */
+    line-height: 16px;
+    text-align: center;
+    transition-duration: 0.4s;
+  
+    color: #ffffff;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #578bf3;
+    box-shadow: 0px 1px 4px #e5e9f2;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+  }

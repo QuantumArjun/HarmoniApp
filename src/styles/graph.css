@@ -1,0 +1,30 @@
+.graph {
+  height:40vh;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px #E5E9F2;
+  border-radius: 5px;
+}
+.sliceTool {
+  background: #DADADA;
+  border-radius: 5px;
+  height: 43px;
+  width: 81px;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #31394D;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 10px rgba(203, 209, 223, 0.7);
+}

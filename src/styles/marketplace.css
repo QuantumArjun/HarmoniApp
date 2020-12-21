@@ -1,0 +1,5 @@
+.marketplace {
+    background: linear-gradient(white, white 15vh, #F5F6FA 15vh, #F5F6FA);
+    background-attachment: scroll;
+    padding: 10px 100px;
+  }

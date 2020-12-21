@@ -1,0 +1,277 @@
+@import "app.css";
+
+
+.card {
+  flex-grow: 2;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* Market */
+
+.market{
+  border-radius: 20px;
+}
+
+.market .card {
+  /* background-image:
+    linear-gradient(
+      white 75%,
+      var(--harmoniOffwhite) 25%
+    ); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  width: 20vw;
+  height: 9vw;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px var(--harmoniGrey4);
+  margin: 14px;
+}
+
+.market .card .card-top{
+  border-radius: 20px 20px 0px 0px;
+  flex-basis: 75%;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 21px 0px 0px 21px;
+}
+
+.market .card .heart-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.market .card .camp-pic{
+  border-radius: 5px;
+  width: 68px;
+  height: 68px;
+}
+
+.market .card .heart-icon {
+  position: absolute;
+  float: right;
+  margin-top: 14px;
+  padding-right: 14px;
+}
+
+.market .card .card-bottom {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--harmoniOffwhite);
+  border-radius: 0px 0px 20px 20px;
+  padding: 8px 16px;
+}
+
+.market .card:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 0px 8px 8px var(--harmoniGrey4);
+  cursor: pointer;
+}
+.sideways.align-items{
+  align-items: center;
+  padding-top: 36px;
+  margin: 0px 14px;
+}
+
+.market .card .inside {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.market .card .inside:active {
+  border: none;
+  transform: translateY(2px);
+}
+
+.market .card .rating {
+  margin-right: auto;
+}
+
+.market .card h2 {
+  padding: 0;
+  font-weight: 100;
+  margin: 0px 12px 6px;
+}
+
+.market .card p {
+  /* font-size: 13px; */
+  font-weight: 100;
+  margin: 4px 12px;
+}
+.market .card span {
+  /* font-size: 13px; */
+  font-weight: 100;
+  margin: 4px 0;
+}
+/* ----------------------------------------------------------------------------- */
+
+
+/* Recommended */
+.recommended {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommended .card, .ongoing {
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 5px 5px 1px 1px; */
+}
+
+.recommended .market .card {
+  padding: 0;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.recommended .card .card-top {
+  border-radius: 3px 3px 0px 0px;
+}
+.recommended .card .card-bottom {
+  border-radius: 0px 0px 3px 3px;
+}
+
+.recommended h2, .ongoing h2 {
+  padding: 0;
+}
+
+
+.sideways {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: row;
+}
+
+.picandtext {
+  display: flex;
+  justify-content: start;
+  flex: 1;
+  flex-direction: row;
+}
+.circle {
+  border-radius: 20px;
+}
+
+
+
+.addmargin {
+  margin-left: 10px;
+}
+.greysep {
+  background: #ebedf4;
+  height: 2px;
+  border: 0;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.stats{
+  margin-top: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  background: #578bf3;
+
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 14px; */
+  line-height: 16px;
+  text-align: center;
+  transition-duration: 0.4s;
+
+  color: #ffffff;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  background-color: #578bf3;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button {
+  display: inline-flex;
+
+  background: #578bf3;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 14px; */
+  line-height: 16px;
+  text-align: center;
+  transition-duration: 0.4s;
+
+  color: #ffffff;
+}
+.viewall{
+  line-height: 7;
+}
+.button:hover {
+  box-shadow: 4px 6px 8px #e5e9f2;
+  cursor: pointer;
+}
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.exp span:after {
+  transform: rotate(90deg);
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.cont span:after {
+  transform: rotate(-90deg);
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
